@@ -1,0 +1,100 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
+  position: relative;
+  margin: 0px;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.mainBackground{
+	background-image: url("../images/globe_money.jpg"); 
+	background-repeat:  no-repeat;
+	background-size: 100% 100%;	
+}
+
+.innerBackground{
+	background-image: url("../images/back2.jpeg"); 
+	background-repeat:  no-repeat;
+	background-size: 100% 100%;	
+}
+
+.page-content > .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 60px;
+}
+
+
+/*//Changed the header back ground color to white*/
+.navbar-default {
+    background-image: linear-gradient(to bottom, #fff 0px, #ffffff 100%);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+/*paypal logo padding*/
+.navbar-header {
+    float: left;
+    margin-left:50px;
+}
+
+/*header menu items font changes */
+.navbar-nav {
+    float: left;
+    font-size: 14px;
+}
+
+/* Logo & Navigation */
+
+.header{
+   height:30px;
+   
+}
+
+
+/* Sidebar navigation */
+
+.content-box, .content-box-large {
+   min-height: 85%;
+   /*height: 85%;*/
+   margin-bottom:30px;
+   background:#fff;
+   border-radius:10px;
+   padding:10px;
+   border-left:1px solid #eee;
+   border-top:1px solid #eee;
+   border-right:2px solid #eee;
+   border-bottom:2px solid #eee; 
+}
+
+.content-box-large {
+  margin: 15 15;
+  padding: 25px;
+}
+
+/*  Account grid css */
+.grid-head{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 15px 10px 15px;
+	float: left;
+}
+
+.account-detail{
+	color: #33CCFF;
+}
+
+.panel-heading>.panel-options, .content-box-header .panel-options {
+    float: right;
+    padding-right: 15px;
+}
+
+.panel-body{
+	overflow:auto;
+  	margin: 0px 15px 0px 15px;  
+}
+
+
+
